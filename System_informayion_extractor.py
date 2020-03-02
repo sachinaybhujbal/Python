@@ -98,14 +98,15 @@ def disk_info():
 def main():
 	txt = '''
 1 . Operating system information.
-2 . CPU information.
-3 . Boot Time.
-4 . Ram Usage.
-5 . Hard Drive Information.
-6 . Exit
+2 . Machine information.
+3 . CPU information.
+4 . Boot Time.
+5 . Ram Usage.
+6 . Hard Drive Information.
+7 . Exit
 '''
 	ch = 0;
-	while(ch != 6):
+	while(ch != 7):
 		
 		print(txt);
 
@@ -116,10 +117,12 @@ def main():
 		elif ch == 2:
 			platform_info();
 		elif ch == 3:
-			boot_info();
+			cpu_info();
 		elif ch == 4:
-			ram_usage();
+			boot_info();
 		elif ch == 5:
+			ram_usage();
+		elif ch == 6:
 			disk_info();
 		
 	print("Thanks For Using Our Application");
