@@ -204,7 +204,7 @@ Total number of duplicate files found are %d"""%(toaddr,time1,scfile,dupfile);
 
 		s.starttls();
 
-		s.login('sachinaybhujbal98@gmail.com','Sachinay@98');
+		s.login('sachinaybhujbal98@gmail.com','password');
 
 		text = msg.as_string();
 
