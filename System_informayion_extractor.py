@@ -38,7 +38,7 @@ def boot_info():
 	print("----Boot Time----");
 	boot_time_timestamp = psutil.boot_time();
 	bt = datetime.fromtimestamp(boot_time_timestamp)
-	print(f"Boot Time: {bt.year}/{bt.month}/{bt.month}/{bt.day} {bt.hour}:{bt.minute}:{bt.second}") ;
+	print(f"Boot Time: {bt.year}/{bt.month}/{bt.day} {bt.hour}:{bt.minute}:{bt.second}") ;
 
 def cpu_info():
 	print("----CPU Info----");
